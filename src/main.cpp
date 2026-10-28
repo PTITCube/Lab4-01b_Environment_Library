@@ -39,7 +39,7 @@ void loop() {
         Serial.println(" *C");
         
         Serial.print("Áp suất (Pressure)     : ");
-        Serial.print(pres / 100.0); // Chuyển đổi từ Pascal (Pa) sang HectoPascal (hPa)
+        Serial.print(pres);
         Serial.println(" hPa");
     }
 }
