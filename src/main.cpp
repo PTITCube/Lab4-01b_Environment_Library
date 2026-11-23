@@ -23,6 +23,6 @@ void loop() {
     float temp = sensor.getTemperature();
     float pres = sensor.getPressure();
 
-    cdh.printf("BMP280: Temp: %.2f C | Press: %.1f hPa\n", temp, pres);
+    cdh.printf("Temp: %.2f C | Press: %.1f hPa\n", temp, pres);
     delay(2000);
 }
